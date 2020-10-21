@@ -3,6 +3,8 @@ const changeAvatar = () => {
     avatar.src = './image/avatar.svg'
 }
 
+
+
 const changeName = () => {
     const name = document.getElementById('name');
     const color = prompt('Choose a color!')
